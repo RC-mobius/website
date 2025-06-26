@@ -36,6 +36,12 @@
       color: #7a7a7a;
       margin-top: 1em;
     }
+    .contact-instruction {
+      text-align: center;
+      font-size: 0.9em;
+      color: #7a7a7a;
+      margin-bottom: 0.5em;
+    }
     form {
       margin-top: 2em;
       display: flex;
@@ -65,15 +71,18 @@
   <div class="container">
     <h1>Mobius Bio</h1>
     <p><strong>Website coming soon</strong></p>
-    <p class="subtext">Mobius Biotechnology GmbH is a subsidiary of Alpha Biotechnology GmbH</p>
+
+    <p class="contact-instruction">To get in touch, please write us a message below</p>
 
     <form action="https://formsubmit.co/b0f455171dd47fcfc9a554a5c78b5775" method="POST">
-      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_captcha" value="false" />
       <input type="text" name="name" placeholder="Your Name" required />
       <input type="email" name="email" placeholder="Your Email" required />
       <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
       <button type="submit">Send Message</button>
     </form>
+
+    <p class="subtext">Mobius Biotechnology GmbH is a subsidiary of Alpha Biotechnology GmbH</p>
   </div>
 </body>
 </html>
